@@ -1,0 +1,71 @@
+/* CSS untuk layout website */
+
+body {
+	font-family: Montserrat, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+header {
+	background-color: #16423C;
+	color: #E9EFEC;
+	padding: 20px;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-grow: 1;
+}
+
+.sidebar {
+	width: 25%;
+	background-color: #f4f4f4;
+	padding: 20px;
+	box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.content {
+	flex-grow: 1;
+	padding: 20px;
+}
+
+
+.content img 
+	{
+		height: 150px;
+
+	}
+
+footer {
+	background-color: #6A9C89;
+	color: #E9EFEC;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	bottom: 0;
+}
+
+h2 {
+	color: #333;
+}
+
+p {
+	line-height: 1.6;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: #16423C;
+	color: #E9EFEC;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: #16423C;
+}
